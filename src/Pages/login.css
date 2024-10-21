@@ -1,0 +1,191 @@
+.login-body {
+  background: linear-gradient(45deg, #FC466B, #3F5EFB);
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.login-container p {
+  color: #fff;
+  font-size: 14px; 
+  margin-top: 20px;
+}
+
+.login-container p a {
+  color: #00ffff; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-container p a:hover {
+  color: #3701fd; 
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 3em;
+  width: auto;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-form p {
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.login-form a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 12px;
+}
+
+.login-form a:hover {
+  text-shadow: 2px 2px 6px #00000040;
+}
+
+.login-form input {
+  background: transparent;
+  width: 270px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+  display: block; 
+  margin: 10px auto;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form input[type="submit"] {
+  margin-bottom: 8px;
+}
+
+.login-form input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+}
+
+.login-form input[type="submit"] {
+  background-color: #007bff;
+  margin-top: 10px;
+  width: 150px;
+  font-size: .9rem;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.login-form input[type="submit"]:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.login-form:hover {
+  margin: 4px;
+}
+
+::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.login-drop {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 60px -8px rgba(0,0,0,0.2);
+  position: absolute;
+  transition: all 0.2s ease;
+}
+
+.login-drop-1 {
+  height: 80px;
+  width: 80px;
+  top: -20px;
+  left: -40px;
+  z-index: -1;
+}
+
+.login-drop-2 {
+  height: 80px;
+  width: 80px;
+  bottom: 40px;
+  right: -30px;
+}
+
+.login-drop-3 {
+  height: 100px;
+  width: 100px;
+  bottom: 160px;
+  right: -50px;
+  z-index: -1;
+}
+
+.login-drop-4 {
+  height: 120px;
+  width: 120px;
+  top: -50px;
+  right: -60px;
+}
+
+.login-drop-5 {
+  height: 60px;
+  width: 60px;
+  bottom: 170px;
+  left: 90px;
+  z-index: -1;
+}
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.toaster-custom {
+  position: relative;
+  bottom: 90px;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
